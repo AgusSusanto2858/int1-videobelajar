@@ -18,6 +18,10 @@ export default function Register() {
     navigate('/', { state: { isGuestLoggedIn: true } });
   };
 
+  const handleGoToLogin = () => {
+    navigate('/login');
+  };
+
   return (
     <>
       <Navbar 
@@ -140,12 +144,12 @@ export default function Register() {
                   >
                     Daftar
                   </button>
-                  <a
-                    href="./login"
+                  <button
+                    type="button" onClick={handleGoToLogin}
                     className="w-full h-11 bg-green-100 text-green-400 font-bold rounded-lg hover:bg-green-200 transition-colors flex items-center justify-center cursor-pointer"
                   >
                     Masuk
-                  </a>
+                  </button>
                   {/* Login as Guest Button */}
                   <button
                     type="button"
