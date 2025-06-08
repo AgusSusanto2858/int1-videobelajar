@@ -1,4 +1,4 @@
-import backgroundImage from '../../assets/images/Newsletter.jpg';
+import backgroundImage from '../../assets/images/newsletter.jpg';
 
 export default function Newsletter () {
     return (
