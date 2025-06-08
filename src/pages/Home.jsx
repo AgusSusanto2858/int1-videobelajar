@@ -4,7 +4,7 @@ import HomeLayouts from '../layouts/HomeLayouts'
 import Hero from '../components/molecules/Hero'
 import Newsletter from '../components/molecules/Newsletter'
 import CourseGrid from '../components/organisms/CourseGrid'
-import { coursesData, getCoursesByCategory, categories } from '../data/coursesData'
+import { coursesData, getCoursesByCategory, categories } from '../data/CoursesData'
 
 export default function Home() {
     const [activeCategory, setActiveCategory] = useState('Semua Kelas');
